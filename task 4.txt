@@ -1,0 +1,51 @@
+ 1/In statistics, hypothesis tests are used to test whether or not some hypothesis about a population parameter is true.
+
+To perform a hypothesis test in the real world, researchers will obtain a random sample from the population and perform a hypothesis test on the sample data, 
+using a null and alternative hypothesis:
+
+Null Hypothesis (H0): The sample data occurs purely from chance.
+Alternative Hypothesis (HA): The sample data is influenced by some non-random cause.
+ If the p-value of the hypothesis test is less than some significance level (e.g. α = .05), 
+ then we can reject the null hypothesis and conclude that we have sufficient evidence to say that the alternative hypothesis is true.
+
+Example 1: Biology
+Hypothesis tests are often used in biology to determine whether some new treatment, fertilizer, pesticide, chemical, etc. causes increased growth, stamina, immunity,
+etc. in plants or animals.
+
+
+2/ Parametric tests are used if the data is normally distributed .A parametric statistical test makes an assumption about the population parameters 
+ and the distributions that the data came from. These types of test includes t-tests,z-tests and anova tests, which assume data is from normal distribution.
+ for example:
+
+
+
+3/ z-test is a statistical test used to determine whether two population means are different when the variances are known and 
+the sample size is large. In z-test mean of the population is compared.The parameters used are population mean and population standard deviation. 
+Z-test is used to validate a hypothesis that the sample drawn belongs to the same population.
+Ho: Sample mean is same as the population mean(Null hypothesis)
+Ha: Sample mean is not same as the population mean(Alternate hypothesis)
+z = (x — μ) / (σ / √n),
+where , x=sample mean, u=population mean, σ / √n = population standard deviation.
+If z value is less than critical value accept null hypothesis else reject null hypothesis.
+
+
+
+
+4/T-test-In t-test the mean of the two given samples are compared.A t-test is used when the population parameters (mean and standard deviation) are not known.
+Paired T-Test-Tests for the difference between two variables from the same population( pre- and post test score).
+For example- In a training program performance score of the trainee before and after completion of the program.
+A scientist observed that the coronavirus that spread in India appears to be less virulent than the virus strain in the United States.
+ You would want to compare how long a person recovers from COVID-19 infection between countries. 
+Thus, you can compare the number of days people in India recover from the disease compared to those living in the United States. 
+In this situation, you may use the t-test.
+
+
+
+
+5/Independent T-test- The independent t-test which is also called the two sample t-test or student’s t-test,
+is a statistical test that determines whether there is a statistically significant difference between the means in two unrelated groups.
+For example -comparing boys and girls in a population.
+One sample t-test- The mean of a single group is compared with a given mean.
+For example-to check the increase and decrease in sales if the average sales is given.
+t = (x1 — x2) / (σ / √n1 + σ / √n2),
+where x1 and x2 are mean of sample 1 and sample 2 respectively.
